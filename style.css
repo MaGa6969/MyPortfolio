@@ -3,42 +3,34 @@ body {
     margin: auto;
     font-family: "Brush Script MT", "SansSerif", "Courier New", "Georgia", "Impact", "Lucida Console", "Arial";
 }
-.home-module {
-    background-image: url("logoMaGa.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
 .header {
     background: #a68dee;
     height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 2px 2px #03ffe9;
+    box-shadow: 0 2px 2px #fad1fa;
 }
-.logo {
-    color: #44006a;
+.logo p {
+    color: #6200ff;
     padding: 2px 40px;
-    font-size: 30px;
-
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .menu {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 .menu button {
     list-style: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .pointer {
-    color: #03ffe9;
+    color: #6200ff;
     text-decoration: none;
-    padding: 2px 15px;
-    font-size: 30px;
+    padding: 2px 10px;
+    font-size: 25px;
+    font-family: "Impact";
 }
 .pointer:hover {
     background-color: #fe87fc;
