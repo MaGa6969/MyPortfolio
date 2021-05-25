@@ -14,9 +14,15 @@ body {
     background: #a68dee;
     height: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0px 4px 4px #03ffe9;
+}
+.logo {
+    color: #44006a;
+    padding: 2px 40px;
+    font-size: 30px;
+
 }
 .menu {
     display: flex;
@@ -31,8 +37,8 @@ body {
 .pointer {
     color: #03ffe9;
     text-decoration: none;
-    padding: 2px 40px;
-    font-size: 35px;
+    padding: 2px 15px;
+    font-size: 30px;
 }
 .pointer:hover {
     background-color: #fe87fc;
