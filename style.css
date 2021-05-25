@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 4px 4px #03ffe9;
+    box-shadow: 0px 2px 2px #03ffe9;
 }
 .logo {
     color: #44006a;
