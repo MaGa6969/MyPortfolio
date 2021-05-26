@@ -38,3 +38,10 @@ body {
     font-family: "Century Gothic";
     border-radius: 50%;
 }
+
+/*@media (min-width:320px, max-width:605px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        }
+}*/
