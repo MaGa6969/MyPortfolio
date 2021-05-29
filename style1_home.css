@@ -10,7 +10,6 @@ header {
     background-color: #a68dee;
     box-shadow: 0 2px 2px #fad1fa;
     display: flex;
-
     justify-content: space-between;
     align-items: center;
 }
