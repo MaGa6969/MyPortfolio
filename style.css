@@ -5,18 +5,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header {
-    height: 40px;
+header {
+    width: 100%;
     background-color: #a68dee;
     box-shadow: 0 2px 2px #fad1fa;
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: space-between;
     align-items: center;
-}
-.logo {
-    width: 180px;
-    height: 40px;
 }
 .logo p {
     font-weight: bold;
@@ -24,6 +20,14 @@ body {
     color: #6200ff;
     padding: 0 10px;
     font-size: 30px;
+}
+p {
+    margin: 0;
+    width: 180px;
+    height: 40px;
+}
+.navbar {
+
 }
 .menu {
     list-style: none;
@@ -47,11 +51,7 @@ body {
     font-family: "Century Gothic";
     border-radius: 30%;
 }
-p {
-    margin: 0;
-    width: 180px;
-    height: 40px;
-}
+
 
 /*@media (min-width:320px, max-width:605px) {
     .header {
