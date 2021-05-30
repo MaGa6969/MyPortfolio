@@ -1,6 +1,13 @@
 body {
-    background-color: #6200ff;
+    background-color: black;
     margin: 0;
+    color: #c6c4c4;
+    font-size: 25px;
+
+}
+.light-mode {
+    background-color: white;
+    color: black;
 }
 header {
     width: 100%;
@@ -22,8 +29,13 @@ p {
     width: 180px;
     height: 40px;
 }
-.navbar {
-
+button {
+    background-color: #fad1fa;
+    color: #6200ff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 2px #6200ff;
+    margin-left: 500px;
 }
 .menu {
     list-style: none;
