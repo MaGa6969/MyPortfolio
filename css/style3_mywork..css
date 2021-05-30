@@ -3,7 +3,6 @@ body {
     margin: 0;
     color: #c6c4c4;
     font-size: 25px;
-
 }
 .light-mode {
     background-color: white;
@@ -24,8 +23,8 @@ header {
     padding: 0 10px;
     font-size: 30px;
 }
-p {
-    margin: 0;
+.logoname {
+    margin: 0 25px;
     width: 180px;
     height: 40px;
 }
@@ -35,7 +34,6 @@ button {
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 2px 2px #6200ff;
-    margin-left: 500px;
 }
 .menu {
     list-style: none;
@@ -44,7 +42,7 @@ button {
 }
 .menu button {
     height: 175px;
-    width: 30;
+    width: 30px;
 }
 .pointer {
     color: #6200ff;
@@ -58,4 +56,12 @@ button {
     color: black;
     font-family: "Century Gothic";
     border-radius: 30%;
+}
+h1 {
+    color: #c6b6f3;
+    font-family: "Bookman Old Style";
+    margin: 10px 25px;
+}
+p {
+    margin: 25px;
 }
