@@ -15,17 +15,15 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.logo p {
+.logoname {
+    margin: 0 25px;
+    width: 180px;
+    height: 40px;
     font-weight: bold;
     font-family: "Jokerman", "Brush Script MT";
     color: #6200ff;
     padding: 0 10px;
     font-size: 30px;
-}
-.logoname {
-    margin: 0 25px;
-    width: 180px;
-    height: 40px;
 }
 .menu {
     list-style: none;
