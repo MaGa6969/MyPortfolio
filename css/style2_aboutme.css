@@ -63,3 +63,34 @@ h1 {
 p {
   margin: 25px;
 }
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foto {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+.foto img {
+    flex-wrap: wrap;
+}
+h2.name {
+    color: #c6b6f3;
+    font-family: "Bookman Old Style";
+    margin: 0;
+    width: 150px;
+    height: 100px;
+}
+.logogithub {
+    width: 40px;
+    height: 40px;
+}
+.logolinkedin {
+    width: 35px;
+    height: 35px;
+}
