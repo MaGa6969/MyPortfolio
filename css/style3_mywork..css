@@ -60,6 +60,11 @@ h1 {
     font-family: "Bookman Old Style";
     margin: 10px 25px;
 }
+h2 {
+    color: #fad1fa;
+    font-family: "Comic Sans MS";
+    margin: 10px 25px;
+}
 p {
     margin: 25px;
 }
