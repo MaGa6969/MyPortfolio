@@ -55,6 +55,14 @@ button {
     font-family: "Century Gothic";
     border-radius: 30%;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.text {
+
+ }
 h1 {
     color: #c6b6f3;
     font-family: "Bookman Old Style";
@@ -67,6 +75,23 @@ h2 {
 }
 p {
     margin: 25px;
+}
+.projectimages {
+
+}
+.photo {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 30px;
+    display: flex;
+}
+.photo img {
+    max-width: none;
+    min-width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
 }
 footer {
     text-align: left;
