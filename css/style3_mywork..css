@@ -58,7 +58,7 @@ button {
 .container {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-evenly;
 }
 .text {
 
@@ -80,22 +80,25 @@ p {
 
 }
 .photo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
-    border-radius: 15px;
-    margin: 0 30px;
-    display: flex;
+    margin: 40px;
 }
 .photo img {
     max-width: none;
     min-width: 250px;
     height: 250px;
-    flex-wrap: wrap;
+
 }
 .foot {
     text-align: left;
     padding: 3px;
     color: #fe87fc;
     position: absolute;
+}
+@media (max-width: 450px) {
+    .photo {
+        border-radius: 25px;
+    }
 }
