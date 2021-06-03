@@ -101,11 +101,9 @@ h2.name {
     height: 35px;
     margin: 285px 0 0 -250px;
 }
-
 .foot {
     text-align: left;
     padding: 3px;
     color: #fe87fc;
     position: absolute;
-    bottom: 0;
 }

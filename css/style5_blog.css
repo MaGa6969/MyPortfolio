@@ -55,10 +55,33 @@ button {
     font-family: "Century Gothic";
     border-radius: 30%;
 }
+h1 {
+    color: #c6b6f3;
+    font-family: "Bookman Old Style";
+    margin: 10px 25px;
+}
+.postsComents {
+    display: flex;
+    flex-wrap: wrap;
+}
+.postsComents container {
+    border-radius: 15px;
+    max-width: 280px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 5px 5px #fe87fc;
+}
+h2 {
+    color: #fad1fa;
+    font-family: "Comic Sans MS";
+    margin: 10px 25px;
+}
+p {
+    margin: 25px;
+}
 .foot {
     text-align: left;
     padding: 3px;
     color: #fe87fc;
     position: absolute;
-    bottom: 0;
 }
