@@ -102,8 +102,10 @@ h2.name {
     margin: 285px 0 0 -250px;
 }
 
-footer {
+.foot {
     text-align: left;
     padding: 3px;
     color: #fe87fc;
+    position: absolute;
+    bottom: 0;
 }

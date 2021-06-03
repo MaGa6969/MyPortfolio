@@ -47,18 +47,6 @@ header {
     font-family: "Century Gothic";
     border-radius: 30%;
 }
-/*.hamburger {
-    display: none;
-}
-.bar {
-    display: block;
-    width: 30px;
-    height: 2px;
-    margin: 8px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #ffffff;
-}*/
 .welcome {
     display: flex;
     text-align: center;
@@ -76,9 +64,4 @@ h1 {
 }
 
 
-/*@media (min-width:320px, max-width:605px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        }
-}*/
+
